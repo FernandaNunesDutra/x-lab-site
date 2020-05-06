@@ -10,6 +10,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutUsComponent } from 'src/app/pages/about-us/about-us.component';
 import { ActionsComponent } from 'src/app/pages/actions/actions.component';
 import { ActionsAddComponent } from 'src/app/pages/actions-add/actions-add.component';
+import { PatternsComponent } from 'src/app/pages/patterns/patterns.component';
+import { PatternsAddComponent } from 'src/app/pages/patterns-add/patterns-add.component';
 // import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
@@ -24,6 +26,8 @@ import { ActionsAddComponent } from 'src/app/pages/actions-add/actions-add.compo
   declarations: [
     ActionsAddComponent,
     ActionsComponent,
+    PatternsComponent,
+    PatternsAddComponent,
     AboutUsComponent,
   ]
 })

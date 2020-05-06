@@ -17,7 +17,9 @@ export const ROUTES: RouteInfo[] = [
     // { path: '/register', title: 'Register',  icon:'ni-circle-08 text-pink', class: '' },
     // // { path: '/actions-add', title: 'Ações',  icon:'ni-air-baloon text-red', class: '' },
     { path: '/actions', title: 'Ações',  icon:'ni-air-baloon text-red', class: '' },
-    { path: '/about-us', title: 'Sobre Nós',  icon:'ni-world-2 text-purple', class: '' }
+    { path: '/about-us', title: 'Sobre Nós',  icon:'ni-world-2 text-purple', class: '' },
+    { path: '/patterns', title: 'Parceiros',  icon:'ni-bullet-list-67 text-yellow', class: '' },
+
 ];
 
 @Component({
