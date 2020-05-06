@@ -12,6 +12,7 @@ import { ActionsComponent } from 'src/app/pages/actions/actions.component';
 import { ActionsAddComponent } from 'src/app/pages/actions-add/actions-add.component';
 import { PatternsComponent } from 'src/app/pages/patterns/patterns.component';
 import { PatternsAddComponent } from 'src/app/pages/patterns-add/patterns-add.component';
+import { SocialMediaComponent } from 'src/app/pages/social-media/social-media.component';
 // import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
@@ -29,6 +30,7 @@ import { PatternsAddComponent } from 'src/app/pages/patterns-add/patterns-add.co
     PatternsComponent,
     PatternsAddComponent,
     AboutUsComponent,
+    SocialMediaComponent,
   ]
 })
 

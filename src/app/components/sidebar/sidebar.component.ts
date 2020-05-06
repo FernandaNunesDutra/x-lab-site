@@ -18,8 +18,8 @@ export const ROUTES: RouteInfo[] = [
     // // { path: '/actions-add', title: 'Ações',  icon:'ni-air-baloon text-red', class: '' },
     { path: '/actions', title: 'Ações',  icon:'ni-air-baloon text-red', class: '' },
     { path: '/about-us', title: 'Sobre Nós',  icon:'ni-world-2 text-purple', class: '' },
-    { path: '/patterns', title: 'Parceiros',  icon:'ni-bullet-list-67 text-yellow', class: '' },
-
+    { path: '/patterns', title: 'Parceiros',  icon:'ni-shop text-yellow', class: '' },
+    { path: '/social-media', title: 'Redes Sociais',  icon:'ni-planet text-pink', class: '' },
 ];
 
 @Component({
