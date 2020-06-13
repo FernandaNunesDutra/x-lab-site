@@ -13,6 +13,8 @@ import { ActionsAddComponent } from 'src/app/pages/actions-add/actions-add.compo
 import { PatternsComponent } from 'src/app/pages/patterns/patterns.component';
 import { PatternsAddComponent } from 'src/app/pages/patterns-add/patterns-add.component';
 import { SocialMediaComponent } from 'src/app/pages/social-media/social-media.component';
+import { VolunteersComponent } from 'src/app/pages/volunteers/volunteers.component';
+import { VolunteersAddComponent } from 'src/app/pages/volunteers-add/volunteers-add.component';
 // import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
@@ -31,6 +33,8 @@ import { SocialMediaComponent } from 'src/app/pages/social-media/social-media.co
     PatternsAddComponent,
     AboutUsComponent,
     SocialMediaComponent,
+    VolunteersComponent,
+    VolunteersAddComponent,
   ]
 })
 
