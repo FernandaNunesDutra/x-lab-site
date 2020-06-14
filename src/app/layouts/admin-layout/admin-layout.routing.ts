@@ -8,6 +8,8 @@ import { PatternsAddComponent } from 'src/app/pages/patterns-add/patterns-add.co
 import { SocialMediaComponent } from 'src/app/pages/social-media/social-media.component';
 import { VolunteersAddComponent } from 'src/app/pages/volunteers-add/volunteers-add.component';
 import { VolunteersComponent } from 'src/app/pages/volunteers/volunteers.component';
+import { UsersComponent } from 'src/app/pages/users/users.component';
+import { UsersAddComponent } from 'src/app/pages/users-add/users-add.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'about-us', component: AboutUsComponent },
@@ -17,5 +19,7 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'patterns-add', component: PatternsAddComponent },
     { path: 'social-media', component: SocialMediaComponent },
     { path: 'volunteers-add', component: VolunteersAddComponent },
-    { path: 'volunteers', component: VolunteersComponent }
+    { path: 'volunteers', component: VolunteersComponent },
+    { path: 'users-add', component: UsersAddComponent },
+    { path: 'users', component: UsersComponent },
 ];

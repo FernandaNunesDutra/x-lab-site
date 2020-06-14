@@ -15,6 +15,8 @@ import { PatternsAddComponent } from 'src/app/pages/patterns-add/patterns-add.co
 import { SocialMediaComponent } from 'src/app/pages/social-media/social-media.component';
 import { VolunteersComponent } from 'src/app/pages/volunteers/volunteers.component';
 import { VolunteersAddComponent } from 'src/app/pages/volunteers-add/volunteers-add.component';
+import { UsersAddComponent } from 'src/app/pages/users-add/users-add.component';
+import { UsersComponent } from 'src/app/pages/users/users.component';
 // import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
@@ -35,6 +37,8 @@ import { VolunteersAddComponent } from 'src/app/pages/volunteers-add/volunteers-
     SocialMediaComponent,
     VolunteersComponent,
     VolunteersAddComponent,
+    UsersAddComponent,
+    UsersComponent,
   ]
 })
 
