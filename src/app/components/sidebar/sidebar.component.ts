@@ -14,7 +14,7 @@ export const ROUTES: RouteInfo[] = [
     { path: '/patterns', title: 'Parceiros',  icon:'ni-shop text-yellow', class: '' },
     { path: '/social-media', title: 'Redes Sociais',  icon:'ni-planet text-pink', class: '' },
     { path: '/volunteers', title: 'Voluntários',  icon:'ni-favourite-28 text-blue', class: '' },
-    { path: '/users', title: 'Usuários',  icon:'ni-single-02 text-blue', class: '' }
+    { path: '/users', title: 'Usuários',  icon:'ni-single-02 text-orange', class: '' }
 ];
 
 @Component({

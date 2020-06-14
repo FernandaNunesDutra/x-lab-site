@@ -26,15 +26,15 @@
           </div>
         </div>
         <div class="card-body">
-          <form>
+          <form #aboutus = "ngForm" (ngSubmit) = "save(aboutus.value)">
             <div class="pl-lg-4">
               <div class="form-group">
                 <label class="form-control-label">Descrição</label>
-                <textarea rows="4" class="form-control form-control-alternative" placeholder="Digite o sobre nós aqui..."></textarea>
+                <textarea [(ngModel)]="description" name="description" rows="4" class="form-control form-control-alternative" placeholder="Digite o sobre nós aqui..."></textarea>
               </div>
               <hr class="my-4" />
               <div class="form-group" style="text-align: right;">
-                <a href="#!" class="btn btn-success">Salvar</a>
+                <input type="submit" class="btn btn-success" value="Salvar">
                 <a href="#!" class="btn btn-info">Cancelar</a>
               </div>
             </div>
